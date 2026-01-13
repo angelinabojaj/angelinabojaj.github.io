@@ -1,9 +1,9 @@
 :root{
---bg-main: #0f0f14;
+--bg-main: #291212;
 --bg-card: #1c1c24;
---text-main: #efe4eb;
+--text-main: hsl(0, 41%, 82%);
 --text-muted: #b0b0c3;
---accent: #c9a24d;
+--accent: #e2a625;
 }
 
 * {
@@ -56,9 +56,19 @@ color: var(--accent);
 }
 
 .skill-chip {
-    background: rgba(70, 45, 150, 0.5);
-    border: 1px solid rgba(255,255,255,0.08);
+    background: rgba(116, 13, 13, 0.5);
+    border: 1px solid rgba(61, 4, 4, 0.08);
     padding: 0.4rem 0.75rem;
     border-radius: 999px;
     font-size: 0.85rem;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 2px solid rgba(168, 52, 52, 0.6);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
 }
