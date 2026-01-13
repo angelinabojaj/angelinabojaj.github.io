@@ -44,6 +44,10 @@ padding: 3rem 1.5rem 2rem;
 text-align: center;
 }
 
+footer {
+    font-style: italic;
+}
+
 header p {
 color: var(--text-muted);
 font-size: 1.1rem;
