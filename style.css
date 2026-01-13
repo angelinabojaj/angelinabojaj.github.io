@@ -1,9 +1,9 @@
 :root{
 --bg-main: #291212;
---bg-card: #1c1c24;
---text-main: hsl(0, 41%, 82%);
+--bg-card: #240202;
+--text-main: hwb(0 100% 0%);
 --text-muted: #b0b0c3;
---accent: #e2a625;
+--accent: #88610c;
 }
 
 * {
