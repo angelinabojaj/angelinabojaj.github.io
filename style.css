@@ -12,12 +12,23 @@
     padding: 0;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffd6d6;
+}
+
 nav {
     background: rgba(116, 13, 13, 0.5);
     border: 1px solid rgba(61, 4, 4, 0.08);
     padding: 0.4rem 0.75rem;
     border-radius: 999px;
     font-size: 0.85rem;
+    display: inline-flex;
+    gap:40px;
 }
 
 body {
@@ -25,6 +36,7 @@ body {
  background: linear-gradient(180deg, #240202, #12121a);
  color: var(--text-main);
  line-height: 1.6;
+ cursor: cell;
 }
 
 header {
