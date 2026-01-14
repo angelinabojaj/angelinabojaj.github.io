@@ -38,6 +38,7 @@ body {
     line-height: 1.6;
     cursor: cell;
     padding: 0 28px;
+    font-size: 18px;
 }
 
 header {
@@ -90,7 +91,7 @@ section h3{
     border: 1px solid rgba(61, 4, 4, 0.08);
     padding: 0.4rem 0.75rem;
     border-radius: 999px;
-    font-size: 0.85rem;
+    font-size: 18px;
 }
 
 .profile-pic {
@@ -110,11 +111,13 @@ section h3{
     margin-top: 20px;
     font-size: 20px;
     padding: 0 28px;
+    font-size: 18px;
 }
 
 .content-section .text{
     flex: 1;
     padding: 0 28px;
+    font-size: 18px;
 }
 
 .hobbies-image {
