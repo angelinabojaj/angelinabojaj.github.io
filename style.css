@@ -96,3 +96,22 @@ color: var(--accent);
     border: 2px solid rgba(168, 52, 52, 0.6);
     box-shadow: 0 8px 25px rgba(0,0,0,0.4);
 }
+
+.content-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.content-section .text{
+    flex: 1;
+}
+
+.hobbie-image {
+    width: 250px;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+}
