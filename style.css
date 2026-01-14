@@ -90,7 +90,7 @@ color: var(--accent);
 .profile-pic {
     width: 130px;
     height: 130px;
-    border-radius: 50%;
+    border-radius: 0;
     object-fit: cover;
     margin-bottom: 1rem;
     border: 2px solid rgba(168, 52, 52, 0.6);
