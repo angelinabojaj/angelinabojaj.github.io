@@ -102,7 +102,7 @@ color: var(--accent);
     align-items: flex-start;
     gap: 30px;
     margin-top: 20px;
-    font-size: medium;
+    font-size: 20px;
 }
 
 .content-section .text{
