@@ -75,8 +75,8 @@ section h2{
 section h3{
     font-family: 'Playfair Display', serif;
     font-size: 1.4rem;
-    margin-bottom: 1rem;
-    color: var(--accent);
+    margin-bottom: 0.3rem;
+    color: #c18e29;
     padding: 0 24px;
 }
 
@@ -125,4 +125,12 @@ section h3{
     height: auto;
     border-radius: 10px;
     padding: 0 16px;
+}
+
+ul {
+    padding: 40px;
+}
+
+p {
+    padding: 0 30px;
 }
