@@ -99,10 +99,10 @@ color: var(--accent);
 
 .content-section{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
     gap: 30px;
-    margin: 40px 0;
+    margin-top: 20px;
+    font-size: medium;
 }
 
 .content-section .text{
@@ -110,11 +110,7 @@ color: var(--accent);
 }
 
 .hobbies-image {
-    width: 130px;
-    height: 130px;
-    border-radius: 0;
-    object-fit: cover;
-    margin-bottom: 1rem;
-    border: 2px solid rgba(168, 52, 52, 0.6);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
 }
